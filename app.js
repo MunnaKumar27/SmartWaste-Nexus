@@ -22,6 +22,7 @@ app.use(express.static(publicDirectory));
 
 //set handlebars as the view engine
 app.set("view engine", "hbs");
+app.set('views', path.join(__dirname, 'views'));
 
 //define Routes
 
