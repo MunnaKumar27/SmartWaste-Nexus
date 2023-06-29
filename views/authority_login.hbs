@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="/style.css">
+<link rel="shortcut icon" href="/images/fav.png"  type="image/x-icon">
+    <title>Waste Management System</title>
+</head>
+<body>
+    <body>
+
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Waste Management System</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="/" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="/authority_register" class="nav__link">Authority</a></li>
+                    <li class="nav__item"><a href="/user_register" class="nav__link">User</a></li>
+                 
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div >
+    <section style="margin-left:100px; margin-top:120px">
+        <form class="row g-3" method="post" action="/auth/authority/login">
+            <div class="col-md-4">
+
+                <label for="email" class="form-label">Email</label>
+                <div class="input-group">
+                <span class="input-group-text" id="span@">@</span>
+                <input type="text" class="form-control" id="email" name="email" aria-describedby="span@" required>
+                </div>
+
+                
+                <label for="password" class="form-label">Password</label>
+                <input class="form-control" id="password" name="password" type="password" required>
+            </div>
+            
+            <div class="col-md-4" style="margin-left:300px" >
+                
+                <div class="text-center">
+                    <h1>Login Authority</h1>
+                    <img src="https://ps.w.org/login-customizer/assets/icon-256x256.png?rev=2455454" style="height: 300px;" class="rounded" alt="...">
+                </div>
+            </div>
+
+            
+
+            {{#if message}}
+                <h6 style="color: red;"> {{this.message}}</h6>
+                {{else}}
+                    <h6 style="color: blue;"> <i>*Enter valid data</i> </h6>
+            {{/if}}
+            
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Login</button> <br>
+                <a href="/authority_register">Register Here</a>
+            </div>
+
+            
+            </form>
+    </section>
+    </div>
+
+ <footer>
+  {{!-- <div class="footer-container">
+    <div class="footer-content">
+      <h3>Contact Us</h3>
+      <p>Nit Panta, Inida</p>
+      <p>Phone: 7050378525</p>
+      <p>Email: mkumar270278@gmail.com</p>
+    </div>
+    <div class="footer-content">
+      <ul >
+        <li ><a href="/" >Home</a></li>
+        <li><a href="/about">about</a></li>
+        <li><a href="/contact">contact</a></li>
+        <li><a href="/authority_register">Authority</a></li>
+        <li><a href="/user_register">User</a></li>
+      </ul>
+    </div> --}}
+    <div class="footer-content">
+      <ul class="social-media" >
+        <li><a href="https://www.facebook.com/Munnakumar27" ><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.twitter.com/munnakumar_27/"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/munnakumar_27/"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+    <p>&copy; 2023 Waste Management. All rights reserved. | Developed by <a href="https://munna-portfolio.vercel.app/" style="text-decoration: none; color:aqua">Munna kumar</a></p>
+  </div>
+  </div>
+  
+</footer>
+    
+</body>
+</html>
