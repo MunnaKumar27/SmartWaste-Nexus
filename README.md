@@ -5,10 +5,9 @@
 
 ## Deployment
 
-  https://cw-management.herokuapp.com/
+  https://smart-waste-nexus.vercel.app/
   
-## Video Link
-  https://youtu.be/ScxVV9nqxZw
+
 
 
 ## Screenshots
@@ -26,6 +25,7 @@
 - ### Register complain Page
   <img src="https://user-images.githubusercontent.com/52382282/141660514-41a8e686-ded7-428d-bf69-d0b7150ce66a.PNG" alt="drawing" width="800"/>
   
+  
 - ### Authority Dashboard
   <img src="https://user-images.githubusercontent.com/52382282/141660518-98544f84-02b4-41c3-8fb4-af108cbb4e5f.PNG" alt="drawing" width="800"/>
 
@@ -40,33 +40,3 @@
 <code><img height="30" src="https://user-images.githubusercontent.com/52382282/141659291-5576f847-5165-4ee9-acf0-ef7e8c627138.png"></code>
 
 
-
-## Installation
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-git clone https://github.com/J0SAL/City-Waste-Management.git
-# Go into the repository
-cd City-Waste-Management
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
-
-
-
-## Environment Variables
-
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`DB_CONN= YOUR_DB_URL_HERE`
-
-
-## Team Members
-1. [Joy Almeida](https://github.com/J0SAL)
-2. [Jeet Mistry](https://github.com/jeetmistry)
-3. [Sahil Chorghe](https://github.com/Sahil222001)
