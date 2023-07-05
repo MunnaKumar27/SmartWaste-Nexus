@@ -1,3 +1,4 @@
+<!---
 # City Waste Management
 
 <p>A Web Application App to help reduce city waste. </p>
@@ -39,4 +40,4 @@
 <code><img height="30" src="https://user-images.githubusercontent.com/52382282/141659282-956ee3e0-7c1e-42ce-9735-6c824cb7da3a.png"></code>
 <code><img height="30" src="https://user-images.githubusercontent.com/52382282/141659291-5576f847-5165-4ee9-acf0-ef7e8c627138.png"></code>
 
-
+-->
